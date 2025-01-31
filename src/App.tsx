@@ -126,7 +126,7 @@ function App() {
             </label></li>
             <li><label className="checkbox">
               <input type="checkbox" checked={options.checkOnOffI} onChange={() => handleCheckboxChange('checkOnOffI')} />
-              &nbsp;ψ{options.checkOnOffA ? `${options.checkOnOffB ? `_{M(0)}(0)` : `_M(0)(0)`}` : `(M(0),0)`}をIで出力
+              &nbsp;ψ{options.checkOnOffA ? `_{M(0)}(0)` : `(M(0),0)`}をIで出力
             </label></li>
             <li><label className="checkbox">
               <input type="checkbox" checked={options.checkOnOffA} onChange={() => handleCheckboxChange('checkOnOffA')} />
